@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="utf-8">
+    <title>Underwater</title>
+    <link href="Underwater.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <div id="depthOverlay">
+        <div id="depthText">0 METERS DEEP</div>
+        <div id="depthLine"></div>
+    </div>
+
+    <div id="waves"></div>
+
+    <script src="TestUnderwater.js"></script>
+</body>

@@ -1,0 +1,64 @@
+body{
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: white;
+    overflow-x: hidden;
+
+    height: 109840px;
+    background: linear-gradient(
+        180deg,
+        #337591 0%,
+        #094a66 5%,
+        #000 10%,
+        #000 100%
+    );
+}
+
+
+
+#waves {
+    height: 825px;
+    background: #468dd4;
+    background: linear-gradient(
+        180deg,
+        #468dd4 0%,
+        #468dd4 50%,
+        #ffffff 100%
+    );
+    --mask:
+        radial-gradient(41.18px at 50% calc(100% - 56px),#000 99%,#0000 101%) calc(50% - 40px) 0/80px 100%,
+        radial-gradient(41.18px at 50% calc(100% + 36px),#0000 99%,#000 101%) 50% calc(100% - 20px)/80px 100% repeat-x;
+    -webkit-mask: var(--mask);
+            mask: var(--mask);
+
+}
+
+
+
+#depthOverlay {
+    position: fixed;
+    bottom: 80px;
+    width: 100%;
+    text-align: center;
+    pointer-events: none;
+}
+
+
+
+
+
+#depthText {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 6px;
+}
+
+
+
+
+
+#depthLine {
+    width: 100%;
+    border-bottom: 2px dotted rgba(255,255,255,0.4);
+}
+

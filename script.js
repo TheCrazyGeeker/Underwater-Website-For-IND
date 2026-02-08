@@ -14,10 +14,6 @@ toggleBtn.addEventListener("click", () => {
   localStorage.setItem("theme", isLight ? "light" : "dark");
 });
 
-
-
-
-
 const backToTop = document.getElementById("backToTop");
 
 window.addEventListener("scroll", () => {
@@ -27,11 +23,6 @@ window.addEventListener("scroll", () => {
 backToTop.addEventListener("click", () => {
   window.scrollTo({ top: 0, behavior: "smooth" });
 });
-
-
-
-
-
 
 const scrollBox = document.getElementById("animationScroll");
 
@@ -83,9 +74,6 @@ if (scrollBox) {
 } else {
   console.warn("animationScroll element not found");
 }
-
-
-
 
 // progress bar click to scroll
 const progressContainer = document.getElementById("progressBarContainer");

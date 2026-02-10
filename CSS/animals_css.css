@@ -1,8 +1,3 @@
-.ocean-scene{
-  position: relative;
-  height: 1089400px;
-}
-
 .animals{
     position: absolute;
     width: 100%;
@@ -15,12 +10,12 @@
   transform: translate(-50%, -50%);
 }
 
-.animal:active .animal-info{
+.animal:hover .animal-info{
   visibility: visible;
   opacity: 1;
 }
 
-.animals:active .animal-info{
+.animals:hover .animal-info{
   visibility: visible;
   opacity: 1;
 }
